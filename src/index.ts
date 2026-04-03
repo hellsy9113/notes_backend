@@ -1,3 +1,6 @@
+/**
+ * Summary: Main Express server entry point that configures middleware, connects to the database, and mounts API routes.
+ */
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";

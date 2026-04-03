@@ -1,3 +1,6 @@
+/**
+ * Summary: Express router mapping node-related HTTP endpoints to their corresponding controller functions.
+ */
 import { Router } from "express";
 import {
   getNodes,

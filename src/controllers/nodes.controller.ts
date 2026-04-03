@@ -1,3 +1,6 @@
+/**
+ * Summary: Express controller functions handling the HTTP request/response cycle for node-related API endpoints.
+ */
 import { Request, Response } from "express";
 import * as NodeService from "../services/node.service";
 

@@ -1,3 +1,6 @@
+/**
+ * Summary: Business logic layer interacting directly with the MongoDB Node model to perform abstract CRUD operations.
+ */
 import Node, { INode } from "../models/Nodes";
 
 export const getAllNodes = async (): Promise<INode[]> => {

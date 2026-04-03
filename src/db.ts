@@ -1,3 +1,6 @@
+/**
+ * Summary: MongoDB connection configuration and setup utilizing Mongoose.
+ */
 import mongoose from "mongoose";
 
 const connectDB = async (): Promise<void> => {

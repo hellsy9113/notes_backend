@@ -1,3 +1,6 @@
+/**
+ * Summary: Mongoose schema and model definition configuring the structure of Node documents stored in the MongoDB database.
+ */
 import mongoose, { Document, Schema } from "mongoose";
 
 export interface INode extends Document {
